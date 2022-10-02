@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-color: rgb(57, 57, 57);
+    background-image: url(/images/minecraft-bg.png);
+}
+.navbar-nav .nav-link {
+    color:white !important;
+}
+.navbar-brand{
+    color:white !important;
+}
+.navbar-toggler{
+    border-color: black!important;
+}
+nav.navbar{
+    padding: 0%;
+    line-height: 30px;
+}
+.navegador{
+    background-color: rgb(39, 36, 36);
+    background-image: url(/images/navbar-minecraft.PNG);
+
+}
+/*.home{
+    background-image: url(/images/minecraft-bg.png);
+}*/
+:root{
+    --main-color: white;
+}
+.bg{
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(4px);
+}
+.nav-link:hover{
+    color: rgb(0, 220, 128) !important; 
+
+}
+/*.bg-text{
+    color: var(--main-color);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align:right;
+    font-family: 'Rubik Mono One', sans-serif;
+}*/
+.bg-title{
+    color: #f1f1f1;
+    position: absolute;
+    top: 50%;
+}
+.espacio{
+    text-indent: 20%;
+}
+.imgRedonda {
+    border-radius:20%;
+    position: relative;
+    bottom:2px;
+}
+.logos{
+    border-radius: 10%;
+    box-shadow: 10%;
+}
+
+.custom-section {
+    padding-top: 50px;
+}
+
+.contacto{
+    max-width: 15cm;
+    padding-top: 4cm;
+    color: #f1f1f1;
+}
+.flexbox {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+  }
+.texto-contacto{
+    margin:auto;
+}
+.medio{
+    max-width: 550px;
+    max-height: 550px;
+}
+.cb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-text{
+     font-family: 'Merriweather', serif;
+     color: var(--main-color);
+;
+}
+
+
+
+footer{
+    background-color: #0a0a0a;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+}
